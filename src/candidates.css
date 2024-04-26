@@ -1,0 +1,77 @@
+/* Page Style */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Added font family */
+}
+
+.full-height23{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.header23 {
+    background: rgb(0,71,171,1);
+    height: 30px; /* Increased height for better visibility */
+    color: white;
+    line-height: 30px; /* Adjusted line-height */
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 20px; 
+    text-decoration: none;
+    color: rgb(255,255,255,1);
+}
+
+/* Content */
+.content23 {
+    display: flex; /* Set display to flex for flexbox layout */
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+/* Footer */
+.footer23 {
+    background: rgb(0, 71, 171, 1);
+    height: 30px; /* Increased height for better visibility */
+    color: white;
+    line-height: 30px; /* Adjusted line-height */
+    font-size: 10pt; /* Increased font size for better readability */
+    text-align: center;
+    font-weight: bold;
+    position: fixed; /* Fixed positioning to keep footer at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+/* candidates.css */
+
+.candidates-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .candidates-table th, .candidates-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .candidates-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .candidates-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .candidates-table tr:hover {
+    background-color: #ddd;
+  }
+  

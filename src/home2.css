@@ -1,0 +1,63 @@
+/* Page Style */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Added font family */
+}
+
+.full-height22{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.header22 {
+    background: rgb(0,71,171,1);
+    height: 30px; /* Increased height for better visibility */
+    color: white;
+    line-height: 30px; /* Adjusted line-height */
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+.nav-link {
+    margin-right: 20px; 
+    text-decoration: none;
+    color: rgb(255,255,255,1);
+}
+
+/* Content */
+.content22 {
+    display: flex; /* Set display to flex for flexbox layout */
+    align-items: center;
+    justify-content: left;
+}
+
+.content22 img {
+    max-width: 50%; /* Adjust image width */
+    height: auto;
+    margin-right: 20px; /* Added margin for spacing */
+}
+
+/* Content Text */
+.content-text {
+    max-width: 50%; /* Adjust width of text content */
+    text-align: right;
+    font-size: 20px;
+}
+
+/* Footer */
+.footer22 {
+    background: rgb(0, 71, 171, 1);
+    height: 30px; /* Increased height for better visibility */
+    color: white;
+    line-height: 30px; /* Adjusted line-height */
+    font-size: 10pt; /* Increased font size for better readability */
+    text-align: center;
+    font-weight: bold;
+    position: fixed; /* Fixed positioning to keep footer at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
